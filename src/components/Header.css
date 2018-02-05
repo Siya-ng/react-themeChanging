@@ -1,0 +1,27 @@
+.header{
+  text-align: center;
+  width:100%;
+  height: 755px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+.header-default {
+  background-image: url( "../img/background-default.jpg") !important;
+}
+
+.header-secondTheme {
+  background-image: url( "../img/background-secondTheme.jpg") !important;
+
+}
+.header-thirdTheme {
+  background-image: url( "../img/background-thirdTheme-a.jpg") !important;
+
+}
+
+.header-fourthTheme {
+  background-image: url( "../img/background-fourthTheme.jpg") !important;
+
+}

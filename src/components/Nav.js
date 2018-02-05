@@ -1,12 +1,13 @@
 import React from 'react';
+import './Nav.css';
 
 const Nav = ({navProp, changeTheme, currentTheme}) => {
   return (
-    <nav >
-      <div className={"nav-wrapper container " + currentTheme.userTheme}>
-        <a href="" className="brand-logo">Logo</a>
-        <ul id="nav-mobile" className="right hide-on-med-and-down">
-          <li><a href=""> Hi {navProp.username } !</a></li>
+    <nav className={"navbar fixed-top navbar-" + currentTheme.userTheme} >
+      <a href="" className="navbar-brand brand-logo">Logo</a>
+      <div className="navbar-collapse ">
+        <ul id="nav-mobile" className="navbar-nav right hide-on-med-and-down">
+          <li className="nav-items"><a className="nav-link" href=""> Hi {navProp.username } !</a></li>
           <li></li>
         </ul>
 

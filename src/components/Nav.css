@@ -1,0 +1,56 @@
+
+.navbar {
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.3rem;
+  padding-left:1rem;
+}
+
+.navbar-default, .navbar-secondTheme {
+  background-color: #212529;
+}
+
+.navbar-thirdTheme, .navbar-fourthTheme {
+  background-color: #C6C6C6;
+}
+
+.navbar-brand {
+  display: inline-block;
+  color: white !important;
+  margin-right: 1rem;
+}
+
+.navbar-nav {
+  margin-left: 3px;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+/* navbar-link */
+
+.navbar-default .nav-link, .navbar-secondTheme .nav-link {
+  color: white;
+}
+.navbar-thirdTheme .nav-link, .navbar-fourthTheme .nav-link {
+  color: #2A2A2A;
+}
+
+.navbar-default .nav-link:hover{
+  color: #18BC9C;
+}
+
+.navbar-secondTheme .nav-link:hover{
+  color: #bf0000;
+}
+
+.navbar-thirdTheme .nav-link:hover{
+  color: #FFFF1A;
+}
+.navbar-fourthTheme .nav-link:hover{
+  color: #8459AB;
+}
+/*.navbar-nav .nav-link:hover{
+  color: white;
+}*/

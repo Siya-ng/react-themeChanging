@@ -26,3 +26,10 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}

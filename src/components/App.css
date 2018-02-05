@@ -1,0 +1,83 @@
+/*default:  #212529,  #18BC9C
+secondTheme : #212529, #bf0000
+thirdTheme: #C6C6C6, #FFFF1A
+fourthTheme: #C6C6C6, #8459AB
+*/
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+ol, ul{
+  margin-top: 0;
+}
+a{
+  text-decoration: none;
+}
+
+.fixed-top{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+::before ::after {
+  box-sizing: border-box;
+}
+
+.changeThemeBtn{
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+}
+
+.default .changeThemeBtn, .secondTheme .changeThemeBtn{
+  color: white;
+}
+
+.thirdTheme .changeThemeBtn, .fourthTheme .changeThemeBtn{
+  color:  #2A2A2A;
+}
+
+.default .changeThemeBtn:hover{
+  color: #18BC9C;
+}
+
+.secondTheme .changeThemeBtn:hover{
+  color: #bf0000;
+}
+
+.thirdTheme .changeThemeBtn:hover{
+  color:  #FFFF1A;
+}
+.fourthTheme .changeThemeBtn:hover{
+  color:  #8459AB;
+}

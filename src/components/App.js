@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 
 import Nav from './Nav';
 import Footer from './Footer';
-
+import Header from './Header';
+import './App.css';
 
 
 const userProfile = {
@@ -41,15 +42,17 @@ class App extends Component {
   render() {
     const currentTheme = this.state
     return (
-      <div class="container">
+      <div class={"container " + currentTheme.userTheme}>
         <Nav
           navProp={userProfile}
           currentTheme={currentTheme}
           changeTheme={this.changeTheme}/>
-
+          <a className="changeThemeBtn" onClick={(e) => this.changeTheme(e)}>Change Theme</a>
+        <Header
+          navProp={userProfile}
+          currentTheme={currentTheme}/>
         <h3>Welcome to react</h3>
 
-        <a className="waves-effect waves-light btn" onClick={(e) => this.changeTheme(e)}>Change Theme</a>
 
         <Footer
           currentTheme={currentTheme}
