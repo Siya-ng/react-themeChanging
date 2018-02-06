@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Nav from './Nav';
 import Footer from './Footer';
 import Header from './Header';
+import Information from './Information';
 import './App.css';
 
 
@@ -53,6 +54,7 @@ class App extends Component {
         <Header
           navProp={userProfile}
           currentTheme={currentTheme}/>
+        <Information currentTheme={currentTheme}/>
         <h3>Welcome to react</h3>
 
 

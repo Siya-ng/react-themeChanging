@@ -34,6 +34,9 @@ fourthTheme: #C6C6C6, #8459AB
   to { transform: rotate(360deg); }
 }
 
+.container {
+  width: 100%;
+}
 
 ol, ul{
   margin-top: 0;
@@ -84,6 +87,56 @@ a{
 }
 
 .btn-fourthTheme{
+  background-color:  #8459AB;
+}
+
+
+.text-default{
+  color: #18BC9C;
+}
+
+.text-secondTheme{
+  color:  #bf0000;
+}
+
+.text-thirdTheme{
+  color:   #C6C6C6;
+}
+
+.text-fourthTheme{
+  color:  #8459AB;
+}
+
+.text-secondary-default{
+  color: white;
+}
+
+.text-secondary-secondTheme{
+  color:  white;
+}
+
+.text-secondary-thirdTheme{
+  color:   #FFFF1A;
+}
+
+.text-secondary-fourthTheme{
+  color:  white;
+}
+
+
+.bg-default{
+  background-color: #18BC9C;
+}
+
+.bg-secondTheme{
+  background-color:  #bf0000;
+}
+
+.bg-thirdTheme{
+  background-color:   #C6C6C6;
+}
+
+.bg-fourthTheme{
   background-color:  #8459AB;
 }
 
