@@ -7,7 +7,12 @@
   padding: 0.3rem;
   padding-left:1rem;
 }
+/* to have transparent navbar when it is at the top*/
+.navbar-top {
+  background-color: transparent !important;
+}
 
+/*navbar background color*/
 .navbar-default, .navbar-secondTheme {
   background-color: #212529;
 }

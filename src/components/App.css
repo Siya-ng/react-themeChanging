@@ -53,6 +53,41 @@ a{
   box-sizing: border-box;
 }
 
+.text-uppercase{
+  text-transform: uppercase;
+}
+
+.btn{
+  display: inline-block;
+  text-align: center;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.btn-xl {
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
+  color: white;
+}
+
+/*theme btn*/
+
+.btn-default{
+  background-color: #18BC9C;
+}
+
+.btn-secondTheme{
+  background-color:  #bf0000;
+}
+
+.btn-thirdTheme{
+  background-color:   #C6C6C6;
+}
+
+.btn-fourthTheme{
+  background-color:  #8459AB;
+}
+
+/*change theme button*/
 .changeThemeBtn{
   position: fixed;
   right: 2rem;

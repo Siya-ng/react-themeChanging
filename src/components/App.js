@@ -31,9 +31,11 @@ class App extends Component {
         themeNo: 0
       })
     } else {
+      let newTheme = themeArray[this.state.themeNo + 1]
+      let newThemeNo = this.state.themeNo + 1
       this.setState({
-        userTheme: themeArray[this.state.themeNo + 1],
-        themeNo: this.state.themeNo += 1
+        userTheme: newTheme,
+        themeNo: newThemeNo
       })
     }
   }
